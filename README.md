@@ -14,7 +14,10 @@ To change this edit the private_network parameter to a specific desired ip and p
 ```
 config.vm.network "private_network", ip: "192.168.2.17"
 ```
-
+Or cd to the directory where the Vagrantfile exists and use 
+```
+vagrant ssh 
+```
 To SSH in to the instance by using box-id 
 ```
 vagrant ssh box-id 
@@ -33,6 +36,14 @@ By default the virtualization platform is VirtualBox, you can change this to VMw
 ```
 config.vm.provider "virtualbox"
 ```
-
-
+### To power-off or to Suspend the machine use:
+```
+vagrant halt -- stops the vagrant machine
+vagrant suspend -- suspends a virtual machine (remembers state)
+```
+### To start the machine use:
+```
+vagrant up -- starts vagrant environment (also provisions only on the FIRST vagrant up)
+vagrant resume -- resume a suspended machine (vagrant up works just fine for this as well)
+```
 
