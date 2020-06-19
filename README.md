@@ -4,7 +4,7 @@
 
 clone this repository
 ```
-https://github.com/hailstorm1422/Gitlab-Vagrant-setup.git
+git clone https://github.com/hailstorm1422/Gitlab-Vagrant-setup.git
 cd  Gitlab-Vagrant-setup
 vagrant up 
 ```
