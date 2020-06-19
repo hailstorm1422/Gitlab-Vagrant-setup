@@ -8,7 +8,7 @@ https://github.com/hailstorm1422/Gitlab-Vagrant-setup.git
 cd  Gitlab-Vagrant-setup
 vagrant up 
 ```
-By default ubuntu/bionic64 machine will gitlab instance will spun up on your private_network IP http://192.168.2.17 
+By default an ubuntu/bionic64 machine with gitlab instance will spun on your private_network IP http://192.168.2.17 
 
 To change this edit the private_network parameter to a specific desired ip and prevent collision.
 ```
