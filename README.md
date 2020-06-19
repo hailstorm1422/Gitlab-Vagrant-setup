@@ -29,7 +29,7 @@ Edit the vb.memory parameter value to your custom liking.
 ```
 vb.memory = "8024"
 ```
-By default the virtualization platform is VirtualBox, you can change this to VM WARE by tweaking the vm.provider parameter :
+By default the virtualization platform is VirtualBox, you can change this to VMware by tweaking the vm.provider parameter:
 ```
 config.vm.provider "virtualbox"
 ```
